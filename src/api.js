@@ -1,4 +1,4 @@
-const url = "http://api.coincap.io/v2";
+const url = "https://api.coincap.io/v2";
 
 async function getAssets() {
   const res = await fetch(`${url}/assets?limit=20`);
